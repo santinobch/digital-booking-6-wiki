@@ -28,7 +28,7 @@ Trabaje mayormente en front end y apoye en la implementación de las APIs del ba
 | --------------- | ----------------------------------------------------------- |
 | Front end       | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
 | Back end        | :large_blue_circle: :white_circle: :white_circle:           |
-| Infraestructura | white_circle: white_circle:white_circle:                    |
+| Infraestructura | white_circle: white_circle: white_circle:                   |
 | Testing / QA    | :large_blue_circle: :white_circle: :white_circle:           |
 | Bases de datos  | :large_blue_circle: :large_blue_circle: :white_circle:      |
 
