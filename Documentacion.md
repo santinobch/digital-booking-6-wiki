@@ -6,13 +6,13 @@
 
 #### Setup
 
-Antes de comenzar a codear es necesario tener instalado VSCode, Node.js y Chrome, utilizamos la extension `git Graph` de VSCode para manejar versionado. Una vez clonado el proyecto de nuestra repo debes correr `npm i` para instalar todos los paquetes requeridos por el proyecto. 
+Antes de comenzar a codear es necesario tener instalado VSCode, Node.js y Chrome, utilizamos la extension `git Graph` de VSCode para manejar versionado. Una vez clonado el proyecto de nuestra repo debes correr `npm i` para instalar todos los paquetes requeridos por el proyecto.
 
 Para iniciar un servidor local de prueba se utiliza el comando `npm run start`.
 
 #### Buenas practicas
 
-Se pide que se utilize el siguiente esquema para realizar cambios en la estructura del proyecto a la hora de agregar archivos: 
+Se pide que se utilize el siguiente esquema para realizar cambios en la estructura del proyecto a la hora de agregar archivos:
 
 ```
 .
@@ -51,4 +51,15 @@ Se pide que se utilize el siguiente esquema para realizar cambios en la estructu
 
 Para realizar un feature nueva se crea una rama proveniente de `develop` con el numero de requerimiento y un nombre comprensible, ejemplo: `#45-template-login`. En el mejor de los casos esta rama se mergea a `develop` cuando se termina.
 
-Una vez testeada la estabilidad de la rama de `develop` esta se mergea a la rama `main` y se crea una *tag* con el numero de version correspondiente.
+Una vez testeada la estabilidad de la rama de `develop` esta se mergea a la rama `main` y se crea una _tag_ con el numero de version correspondiente.
+
+• Principales partes de la aplicación y cómo se conectan
+
+La aplicación se compone de 2 partes principales que son:
+Actividad: Se da la interacción del usuario con el aplicativo, representa cada interfaz de usuario (página principal, creación del propiedad, detalle del propiedad reservas), las cuales se conecta por medio de una api al back y trayendo consigo cada dato almacenado, permitiendo crear o realizar una consulta.
+
+Servicios: Brinda una conexión entre la api y la interfaz de usuario en la cual dicho usuario puede realizar filtros, búsquedas, registrarse o realizar reservas dentro de la misma.
+
+• APIs disponibles y su documentación (pueden linkear a un sitio externo)
+El equipo utilizó Swagger para la documentación de la API
+http://localhost:8080/swagger-ui/index.html/
