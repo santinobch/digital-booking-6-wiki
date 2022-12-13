@@ -2,7 +2,7 @@
 
 ## Santino Boscacci Chiapella
 
-Gihub: [@santinobch](https://github.com/santinobch)
+Github: [@santinobch](https://github.com/santinobch)
 
 Ingeniero en sistemas con experiencia en frontend, utilizo Angular como herramienta de trabajo principal. En mi tiempo libre desarrollo una libreria de diseño UI y restauro computadoras en el múseo de la informatica.
 
@@ -20,7 +20,7 @@ Aporte diseño y funcionalidad a frontend, tambien realizando testing automatiza
 
 ## Yair
 
-Gihub: [@Yaircs](https://github.com/yaircs)
+Github: [@Yaircs](https://github.com/yaircs)
 
 Hola, mi nombre es yair cañate simarra Trabaje mayormente en frontend y apoye en la implementación de las APIs del back. Al iniciar la carrera no tenía conocimientos en la parte de desarrollo, durante cada bimestre fui aprendiendo y aplicado cada una de las areas del desarrollo me apasiona el front end y deseo seguir manejandolo.
 
@@ -36,25 +36,25 @@ Hola, mi nombre es yair cañate simarra Trabaje mayormente en frontend y apoye e
 
 ## Martin
 
-Gihub: [@example](https://github.com/santinobch)
+Github: [@example](https://github.com/mlrosas21)
 
-Una breve descripción de los roles desempeñados y las tareas realizadas durante los diferentes sprints.
+Me desenvolví principalmente en el Back End, desarrollando la API en cuestión, y también en menor medida en el Front End, donde aporte con el desarrollo y funcionalidad de componentes varios.
 
-Una tabla indicando las fortalezas actuales en las principales áreas de tecnología de la carrera.
+Construí el Back End buscando implementar las mejores prácticas posibles, priorizando la claridad en el código y el modelo de capas, con sus respectivas responsabilidaes, que propone la arquitectura MVC de Spring
 
 | Tecnología      | Fortaleza                                                   |
 | --------------- | ----------------------------------------------------------- |
-| Front end       | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
-| Back end        | :large_blue_circle: :white_circle: :white_circle:           |
-| Infraestructura | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
+| Front end       | :large_blue_circle: :large_blue_circle: :white_circle:      |
+| Back end        | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
+| Infraestructura | :large_blue_circle: :white_circle: :white_circle:           |
 | Testing / QA    | :large_blue_circle: :white_circle: :white_circle:           |
-| Bases de datos  | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
+| Bases de datos  | :large_blue_circle: :large_blue_circle: :white_circle:      |
 
 <hr>
 
 ## Oscar
 
-Gihub: [@example](https://github.com/santinobch)
+Github: [@example](https://github.com/santinobch)
 
 Una breve descripción de los roles desempeñados y las tareas realizadas durante los diferentes sprints.
 
@@ -72,7 +72,7 @@ Una tabla indicando las fortalezas actuales en las principales áreas de tecnolo
 
 ## Maria
 
-Gihub: [@MsTsukino](https://github.com/MsTsukino)
+Github: [@MsTsukino](https://github.com/MsTsukino)
 
 Hola! Mi nombre es Maria Espinoza, tengo 28 años e inicié la carrera Certified Tech Developer en Mayo del 2021 sin conocimientos en programación, durante estos casi 2 años de formación he adquirido mucho aprendizaje que me ha ayudado a afrontar exitosamente este último tramo de la carrera. 
 

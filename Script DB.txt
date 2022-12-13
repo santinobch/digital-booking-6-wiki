@@ -1,0 +1,90 @@
+CREATE TABLE `caracteristicas` (
+  `id_caracteristica` int NOT NULL AUTO_INCREMENT,
+  `icono` varchar(255) DEFAULT NULL,
+  `nombre` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id_caracteristica`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `categorias` (
+  `id_categoria` int NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(255) DEFAULT NULL,
+  `descripcion` varchar(255) DEFAULT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id_categoria`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `ciudades` (
+  `id_ciudad` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) DEFAULT NULL,
+  `pais` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id_ciudad`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `imagenes` (
+  `id_imagen` int NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(255) DEFAULT NULL,
+  `url` varchar(2000) DEFAULT NULL,
+  `id_producto` int DEFAULT NULL,
+  PRIMARY KEY (`id_imagen`),
+  KEY `FK4ff47cy8cj584wrari4eiyht9` (`id_producto`),
+  CONSTRAINT `FK4ff47cy8cj584wrari4eiyht9` FOREIGN KEY (`id_producto`) REFERENCES `productos` (`id_producto`)
+) ENGINE=InnoDB AUTO_INCREMENT=88 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `productos` (
+  `id_producto` int NOT NULL AUTO_INCREMENT,
+  `descripcion` text,
+  `titulo` varchar(255) DEFAULT NULL,
+  `id_categoria` int DEFAULT NULL,
+  `id_ciudad` int DEFAULT NULL,
+  `cancellation_policy` varchar(1000) DEFAULT NULL,
+  `health_security_policy` varchar(1000) DEFAULT NULL,
+  `house_rules_policy` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`id_producto`),
+  KEY `FKej3esc6optvkb4f9smk1cxsdq` (`id_categoria`),
+  KEY `FKdm6xkxm1akv4b3f7vrmr7kbfn` (`id_ciudad`),
+  CONSTRAINT `FKdm6xkxm1akv4b3f7vrmr7kbfn` FOREIGN KEY (`id_ciudad`) REFERENCES `ciudades` (`id_ciudad`),
+  CONSTRAINT `FKej3esc6optvkb4f9smk1cxsdq` FOREIGN KEY (`id_categoria`) REFERENCES `categorias` (`id_categoria`)
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `productos_x_caracteristicas` (
+  `id_productos` int NOT NULL,
+  `id_caracteristica` int NOT NULL,
+  KEY `FKphu4ag0x2ug0d6trp4x2slhhq` (`id_caracteristica`),
+  KEY `FK7t3get8ykdhp80rbybcxgqcb1` (`id_productos`),
+  CONSTRAINT `FK7t3get8ykdhp80rbybcxgqcb1` FOREIGN KEY (`id_productos`) REFERENCES `productos` (`id_producto`),
+  CONSTRAINT `FKphu4ag0x2ug0d6trp4x2slhhq` FOREIGN KEY (`id_caracteristica`) REFERENCES `caracteristicas` (`id_caracteristica`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `reservas` (
+  `id_reserva` int NOT NULL AUTO_INCREMENT,
+  `fecha_desde` date DEFAULT NULL,
+  `fecha_hasta` date DEFAULT NULL,
+  `hora` time DEFAULT NULL,
+  `id_producto` int DEFAULT NULL,
+  `id_usuario` int DEFAULT NULL,
+  PRIMARY KEY (`id_reserva`),
+  KEY `FKophd66hvvqtv6eg1gyjqqcmp8` (`id_producto`),
+  KEY `FKpvlychvjq6rwaaak1ilc0c281` (`id_usuario`),
+  CONSTRAINT `FKophd66hvvqtv6eg1gyjqqcmp8` FOREIGN KEY (`id_producto`) REFERENCES `productos` (`id_producto`),
+  CONSTRAINT `FKpvlychvjq6rwaaak1ilc0c281` FOREIGN KEY (`id_usuario`) REFERENCES `usuarios` (`id_usuario`)
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `roles` (
+  `id_rol` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id_rol`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `usuarios` (
+  `id_usuario` int NOT NULL AUTO_INCREMENT,
+  `apellido` varchar(255) DEFAULT NULL,
+  `ciudad` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `nombre` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `username` varchar(255) DEFAULT NULL,
+  `id_rol` int DEFAULT NULL,
+  PRIMARY KEY (`id_usuario`),
+  KEY `FKjx9a5dn2inn72q31rmpt7kehe` (`id_rol`),
+  CONSTRAINT `FKjx9a5dn2inn72q31rmpt7kehe` FOREIGN KEY (`id_rol`) REFERENCES `roles` (`id_rol`)
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

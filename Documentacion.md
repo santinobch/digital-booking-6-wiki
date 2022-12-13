@@ -71,3 +71,12 @@ Para asegurar la calidad del software durante éste proyecto se realizaron prueb
 
 Link al Reporte Final y Casos de prueba ejecutados:
 https://docs.google.com/spreadsheets/d/1vvhWIxnokFKOzOPjiKJ8rnLsjr-Gwll3DEeeuWUTwK8/edit?usp=sharing
+
+### Base de datos
+-Diagrama
+![Alt text](DER%20DigitalBooking.png "Diagrama de base de datos Digital Booking")
+
+-[Script creación base de datos](Script%20DB.txt)
+
+### Back-end
+Antes de comenzar, es necesario tener instalado el IntelliJ IDEA (u otro IDE de preferencia). Se debe modificar las variables de entorno para que coincida con la base de datos a la que apunte, poniendo el usuario y contraseña correspondientes. Luego, correr el programa, el cual generará en la base de datos las tablas pertinentes.
