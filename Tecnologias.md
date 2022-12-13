@@ -33,5 +33,6 @@ Utilizamos VSCode para escribir el codigo de frontend ademas de utilizarlo conju
     - react-responsive-carousel
   - Testing:
     - jest
+    - Selenium IDE
 - Fuentes
   - Roboto
