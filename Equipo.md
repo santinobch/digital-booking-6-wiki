@@ -52,7 +52,7 @@ Construí el Back End buscando implementar las mejores prácticas posibles, prio
 
 <hr>
 
-## Oscar
+## Oscar Javier Pulido Delgado
 
 Github: [@OscarDraw](https://github.com/OscarDraw)
 
