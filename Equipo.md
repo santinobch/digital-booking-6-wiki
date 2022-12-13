@@ -22,7 +22,7 @@ Aporte diseño y funcionalidad a frontend, tambien realizando testing automatiza
 
 Gihub: [@Yaircs](https://github.com/yaircs)
 
-Trabaje mayormente en front end y apoye en la implementación de las APIs del back. Al iniciar la carrera no tenía conocimientos en la parte de desarrollo, durante cada asignatura fui aprendiendo de cada una y obteniendo las siguientes fortalezas:
+Trabaje mayormente en frontend y apoye en la implementación de las APIs del back. Al iniciar la carrera no tenía conocimientos en la parte de desarrollo, durante cada asignatura fui aprendiendo de cada una y obteniendo las siguientes fortalezas:
 
 | Tecnología      | Fortaleza                                                   |
 | --------------- | ----------------------------------------------------------- |
