@@ -68,9 +68,9 @@ http://ec2-18-190-159-203.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.
 
 ### Back-end
 
-Antes de comenzar, es necesario tener instalado el IntelliJ IDEA (u otro IDE de preferencia). Se debe modificar las variables de entorno para que coincida con la base de datos a la que apunte, poniendo el usuario y contraseña correspondientes. Luego, correr el programa, el cual generará en la base de datos las tablas pertinentes. Tener en cuenta que el back end se correrá en http://localhost:8080/
+Antes de comenzar, es necesario tener instalado el IntelliJ IDEA (u otro IDE de preferencia). Se debe modificar las variables de entorno para que coincida con la base de datos a la que apunte, poniendo el usuario y contraseña correspondientes. Luego, correr el programa, el cual generará en la base de datos las tablas pertinentes. Tener en cuenta que el back end se correrá en http://ec2-18-190-159-203.us-east-2.compute.amazonaws.com:8080/
 
-Para mayor información sobre los endpoints y acciones posibles, por favor visitar la documentación generada en Swagger en http://localhost:8080/swagger
+Para mayor información sobre los endpoints y acciones posibles, por favor visitar la documentación generada en Swagger en http://ec2-18-190-159-203.us-east-2.compute.amazonaws.com:8080/swagger
 
 ### Base de datos
 
@@ -79,6 +79,8 @@ Para mayor información sobre los endpoints y acciones posibles, por favor visit
 
 -[Script creación base de datos](Script%20DB.txt)
 
+### Infraestructura
+![diagrama-infra drawio](https://user-images.githubusercontent.com/31278211/207471271-24b0bfe5-2b66-4e84-98b2-21d76b16f3ae.png)
 
 ### Testing y Calidad
 
