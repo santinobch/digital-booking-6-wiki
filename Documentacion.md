@@ -63,7 +63,7 @@ Servicios: Brinda una conexión entre la api y la interfaz de usuario en la cual
 ### APIs disponibles y su documentación (pueden linkear a un sitio externo)
 
 El equipo utilizó Swagger para la documentación de la API
-http://localhost:8080/swagger-ui/index.html/
+http://ec2-18-190-159-203.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.html
 
 ### Testing y Calidad
 
@@ -73,10 +73,12 @@ Link al Reporte Final y Casos de prueba ejecutados:
 https://docs.google.com/spreadsheets/d/1vvhWIxnokFKOzOPjiKJ8rnLsjr-Gwll3DEeeuWUTwK8/edit?usp=sharing
 
 ### Base de datos
+
 -Diagrama
 ![Alt text](DER%20DigitalBooking.png "Diagrama de base de datos Digital Booking")
 
 -[Script creación base de datos](Script%20DB.txt)
 
 ### Back-end
+
 Antes de comenzar, es necesario tener instalado el IntelliJ IDEA (u otro IDE de preferencia). Se debe modificar las variables de entorno para que coincida con la base de datos a la que apunte, poniendo el usuario y contraseña correspondientes. Luego, correr el programa, el cual generará en la base de datos las tablas pertinentes.
