@@ -17,46 +17,56 @@ Utilizamos VSCode para escribir el codigo de frontend ademas de utilizarlo conju
   - Chrome
   - VSCode
   - Node.js
+  
 - Librerias:
   - Base:
     - react 18
     - react-router
     - sass
     - uuidv4
+  
   - UI:
     - bootstrap
     - font-awesome
     - react-icons
+  
   - Componentes:
     - react-select
     - react-multi-date-picker
     - react-responsive-carousel
+  
   - Testing:
     - jest
     - Selenium IDE
+  
 - Fuentes
   - Roboto
 
-  ### Back-end
-  - Lenguaje de programación:
-    - Java
-  -Framework:
-    -Spring (Spring Boot, Spring Security)
-  -IDE:
-    -IntelliJ IDEA
-  -Gestor de dependencias:
-    -Maven
-  -Dependencias:
-    -JPA
-    -Swagger
-    -Hibernate
-    -ModelMapper
-    -JWT
-    -Jackson
-    -Lombok
-    -MySQL Connector
+### Back-end
+
+- Lenguaje de programación:
+  - Java
+
+- Framework:
+  - Spring (Spring Boot, Spring Security)
+
+- IDE:
+  - IntelliJ IDEA
+
+- Gestor de dependencias:
+  - Maven
+
+- Dependencias:
+  - JPA
+  - Swagger
+  - Hibernate
+  - ModelMapper
+  - JWT
+  - Jackson
+  - Lombok
+  - MySQL Connector
 
 ### Base de datos
-  -Herramientas:
-    -MySQL Workbench
+
+- MySQL Workbench
     

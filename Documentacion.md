@@ -60,17 +60,17 @@ Actividad: Se da la interacción del usuario con el aplicativo, representa cada 
 
 Servicios: Brinda una conexión entre la api y la interfaz de usuario en la cual dicho usuario puede realizar filtros, búsquedas, registrarse o realizar reservas dentro de la misma.
 
-### APIs disponibles y su documentación (pueden linkear a un sitio externo)
+#### APIs disponibles y su documentación (pueden linkear a un sitio externo)
 
 El equipo utilizó Swagger para la documentación de la API
 http://ec2-18-190-159-203.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.html
 
-### Testing y Calidad
 
-Para asegurar la calidad del software durante éste proyecto se realizaron pruebas exploratorias libres las cuales nos permitieron tener un enfoque más amplio sobre el uso de la aplicación y también nos permitió realizar un informe más completo ya que durante estas pruebas se puede evidenciar la necesidad de generar más casos de pruebas.
+### Back-end
 
-Link al Reporte Final y Casos de prueba ejecutados:
-https://docs.google.com/spreadsheets/d/1vvhWIxnokFKOzOPjiKJ8rnLsjr-Gwll3DEeeuWUTwK8/edit?usp=sharing
+Antes de comenzar, es necesario tener instalado el IntelliJ IDEA (u otro IDE de preferencia). Se debe modificar las variables de entorno para que coincida con la base de datos a la que apunte, poniendo el usuario y contraseña correspondientes. Luego, correr el programa, el cual generará en la base de datos las tablas pertinentes. Tener en cuenta que el back end se correrá en http://localhost:8080/
+
+Para mayor información sobre los endpoints y acciones posibles, por favor visitar la documentación generada en Swagger en http://localhost:8080/swagger
 
 ### Base de datos
 
@@ -79,11 +79,10 @@ https://docs.google.com/spreadsheets/d/1vvhWIxnokFKOzOPjiKJ8rnLsjr-Gwll3DEeeuWUT
 
 -[Script creación base de datos](Script%20DB.txt)
 
-### Back-end
 
-Antes de comenzar, es necesario tener instalado el IntelliJ IDEA (u otro IDE de preferencia). Se debe modificar las variables de entorno para que coincida con la base de datos a la que apunte, poniendo el usuario y contraseña correspondientes. Luego, correr el programa, el cual generará en la base de datos las tablas pertinentes. Tener en cuenta que el back end se correrá en http://localhost:8080/
+### Testing y Calidad
 
-Para mayor información sobre los endpoints y acciones posibles, por favor visitar la documentación generada en Swagger en http://localhost:8080/swagger
+Para asegurar la calidad del software durante éste proyecto se realizaron pruebas exploratorias libres las cuales nos permitieron tener un enfoque más amplio sobre el uso de la aplicación y también nos permitió realizar un informe más completo ya que durante estas pruebas se puede evidenciar la necesidad de generar más casos de pruebas.
 
-
-
+Link al Reporte Final y Casos de prueba ejecutados:
+https://docs.google.com/spreadsheets/d/1vvhWIxnokFKOzOPjiKJ8rnLsjr-Gwll3DEeeuWUTwK8/edit?usp=sharing
