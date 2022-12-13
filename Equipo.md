@@ -61,10 +61,10 @@ Tecnologo en análisis y desarrollo de sistemas de información, actualmente tra
 | Tecnología      | Fortaleza                                                   |
 | --------------- | ----------------------------------------------------------- |
 | Front end       | :large_blue_circle: :white_circle: :white_circle: |
-| Back end        | :large_blue_circle: :large_blue_circle: :white_circle:           |
+| Back end        | :large_blue_circle: :large_blue_circle: :large_blue_circle:           |
 | Infraestructura | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
 | Testing / QA    | :large_blue_circle: :white_circle: :white_circle:           |
-| Bases de datos  | :large_blue_circle: :large_blue_circle: :white_circle: |
+| Bases de datos  | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
 
 <hr>
 
