@@ -22,14 +22,14 @@ Aporte diseño y funcionalidad a frontend, tambien realizando testing automatiza
 
 Gihub: [@Yaircs](https://github.com/yaircs)
 
-Trabaje mayormente en frontend y apoye en la implementación de las APIs del back. Al iniciar la carrera no tenía conocimientos en la parte de desarrollo, durante cada asignatura fui aprendiendo de cada una y obteniendo las siguientes fortalezas:
+Hola, mi nombre es yair cañate simarra Trabaje mayormente en frontend y apoye en la implementación de las APIs del back. Al iniciar la carrera no tenía conocimientos en la parte de desarrollo, durante cada bimestre fui aprendiendo y aplicado cada una de las areas del desarrollo me apasiona el front end y deseo seguir manejandolo.
 
 | Tecnología      | Fortaleza                                                   |
 | --------------- | ----------------------------------------------------------- |
 | Front end       | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
 | Back end        | :large_blue_circle: :white_circle: :white_circle:           |
 | Infraestructura | :white_circle: :white_circle: :white_circle:                |
-| Testing / QA    | :large_blue_circle: :white_circle: :white_circle:           |
+| Testing / QA    | :large_blue_circle: :large_blue_circle: :white_circle:      |
 | Bases de datos  | :large_blue_circle: :large_blue_circle: :white_circle:      |
 
 <hr>s
