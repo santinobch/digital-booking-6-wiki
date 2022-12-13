@@ -81,4 +81,9 @@ https://docs.google.com/spreadsheets/d/1vvhWIxnokFKOzOPjiKJ8rnLsjr-Gwll3DEeeuWUT
 
 ### Back-end
 
-Antes de comenzar, es necesario tener instalado el IntelliJ IDEA (u otro IDE de preferencia). Se debe modificar las variables de entorno para que coincida con la base de datos a la que apunte, poniendo el usuario y contraseña correspondientes. Luego, correr el programa, el cual generará en la base de datos las tablas pertinentes.
+Antes de comenzar, es necesario tener instalado el IntelliJ IDEA (u otro IDE de preferencia). Se debe modificar las variables de entorno para que coincida con la base de datos a la que apunte, poniendo el usuario y contraseña correspondientes. Luego, correr el programa, el cual generará en la base de datos las tablas pertinentes. Tener en cuenta que el back end se correrá en http://localhost:8080/
+
+Para mayor información sobre los endpoints y acciones posibles, por favor visitar la documentación generada en Swagger en http://localhost:8080/swagger
+
+
+
