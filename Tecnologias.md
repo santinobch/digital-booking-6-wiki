@@ -36,3 +36,27 @@ Utilizamos VSCode para escribir el codigo de frontend ademas de utilizarlo conju
     - Selenium IDE
 - Fuentes
   - Roboto
+
+  ### Back-end
+  - Lenguaje de programación:
+    - Java
+  -Framework:
+    -Spring (Spring Boot, Spring Security)
+  -IDE:
+    -IntelliJ IDEA
+  -Gestor de dependencias:
+    -Maven
+  -Dependencias:
+    -JPA
+    -Swagger
+    -Hibernate
+    -ModelMapper
+    -JWT
+    -Jackson
+    -Lombok
+    -MySQL Connector
+
+### Base de datos
+  -Herramientas:
+    -MySQL Workbench
+    
