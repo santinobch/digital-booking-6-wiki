@@ -64,3 +64,10 @@ Servicios: Brinda una conexión entre la api y la interfaz de usuario en la cual
 
 El equipo utilizó Swagger para la documentación de la API
 http://localhost:8080/swagger-ui/index.html/
+
+### Testing y Calidad
+
+Para asegurar la calidad del software durante éste proyecto se realizaron pruebas exploratorias libres las cuales nos permitieron tener un enfoque más amplio sobre el uso de la aplicación y también nos permitió realizar un informe más completo ya que durante estas pruebas se puede evidenciar la necesidad de generar más casos de pruebas.
+
+Link al Reporte Final y Casos de prueba ejecutados:
+https://docs.google.com/spreadsheets/d/1vvhWIxnokFKOzOPjiKJ8rnLsjr-Gwll3DEeeuWUTwK8/edit?usp=sharing
