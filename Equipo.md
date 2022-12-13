@@ -72,16 +72,19 @@ Una tabla indicando las fortalezas actuales en las principales áreas de tecnolo
 
 ## Maria
 
-Gihub: [@example](https://github.com/santinobch)
+Gihub: [@MsTsukino](https://github.com/MsTsukino)
 
-Una breve descripción de los roles desempeñados y las tareas realizadas durante los diferentes sprints.
+Hola! Mi nombre es Maria Espinoza, tengo 28 años e inicié la carrera Certified Tech Developer en Mayo del 2021 sin conocimientos en programación, durante estos casi 2 años de formación he adquirido mucho aprendizaje que me ha ayudado a afrontar exitosamente este último tramo de la carrera. 
 
-Una tabla indicando las fortalezas actuales en las principales áreas de tecnología de la carrera.
+Durante éste proyecto me desempeñé bajo el rol de Tester realizando y ejecutando los casos de pruebas durante todos los Sprints, también realicé pruebas exploratorias, reporte de defectos y un reporte final que recoge un resumen de lo antes mencionado. También realicé tareas complementarias en el área de Front end.
+
+A continuación una tabla con mis fortalezas en las principales áreas de tecnología de la carrera.
+
 
 | Tecnología      | Fortaleza                                                   |
 | --------------- | ----------------------------------------------------------- |
-| Front end       | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
+| Front end       | :large_blue_circle: :large_blue_circle: :white_circle:      |
 | Back end        | :large_blue_circle: :white_circle: :white_circle:           |
-| Infraestructura | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
-| Testing / QA    | :large_blue_circle: :white_circle: :white_circle:           |
-| Bases de datos  | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
+| Infraestructura | :white_circle: :white_circle: :white_circle:                |
+| Testing / QA    | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
+| Bases de datos  | :large_blue_circle: :white_circle: :white_circle:           |
