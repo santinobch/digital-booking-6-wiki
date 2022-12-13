@@ -54,19 +54,17 @@ Construí el Back End buscando implementar las mejores prácticas posibles, prio
 
 ## Oscar
 
-Github: [@example](https://github.com/santinobch)
+Github: [@OscarDraw](https://github.com/OscarDraw)
 
-Una breve descripción de los roles desempeñados y las tareas realizadas durante los diferentes sprints.
-
-Una tabla indicando las fortalezas actuales en las principales áreas de tecnología de la carrera.
+Tecnologo en análisis y desarrollo de sistemas de información, actualmente trabajando en [ElTtiempo](https://www.eltiempo.com/) principalmente enfocado en el backend, en este proyecto me decidí por incursionar en el area de infraestructura, maquetando y desarrollando esta, priorizando la automatización de los procesos en AWS.
 
 | Tecnología      | Fortaleza                                                   |
 | --------------- | ----------------------------------------------------------- |
-| Front end       | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
-| Back end        | :large_blue_circle: :white_circle: :white_circle:           |
+| Front end       | :large_blue_circle: :white_circle: :white_circle: |
+| Back end        | :large_blue_circle: :large_blue_circle: :white_circle:           |
 | Infraestructura | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
 | Testing / QA    | :large_blue_circle: :white_circle: :white_circle:           |
-| Bases de datos  | :large_blue_circle: :large_blue_circle: :large_blue_circle: |
+| Bases de datos  | :large_blue_circle: :large_blue_circle: :white_circle: |
 
 <hr>
 
